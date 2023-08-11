@@ -15,7 +15,9 @@ a {
 }
 
 .gradient_bg {
-  background: radial-gradient(circle at 3% 25%, rgba(25, 40, 153, 1) 0%, rgba(0, 10, 82, 1) 100%);
+  /* yellow-gradient-background background: radial-gradient(circle at 3% 25%, rgba(255, 232, 141, 1) 0%, rgba(255, 204, 0, 1) 100%); */
+  /* dark-blue-gradient-background background: radial-gradient(circle at 18% 25%, rgba(0, 10, 82, 1) 0%, rgba(48, 68, 210, 1) 100%); */
+  background-color: rgba(0, 10, 82, 1);
 }
 
 .gradient_text {
@@ -25,11 +27,11 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.section__padding {
+.section_padding {
   padding: 4rem 6rem;
 }
 
-.section__margin {
+.section_margin {
   margin: 4rem 6rem;
 }
 /* 

@@ -3,7 +3,7 @@ import './whatGAT.css'
 
 const WhatGAT = () => {
     return(
-        <>4</>
+        <></>
     )
 };
 

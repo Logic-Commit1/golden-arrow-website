@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Brand, CTA, Navbar } from './components'
-import { Blog, Features, Footer, Header, WhatGAT } from './containers'
+import { Products, Services, Blog, Features, Footer, Header, WhatGAT } from './containers'
 import './App.css'
 
 
@@ -9,9 +9,11 @@ const App = () => {
     <div className="classname">
       <div className="gradient_bg">
         <Navbar />
-        <Header />
       </div>
+      <Header />
       <Brand /> 
+      <Products />
+      <Services />
       <WhatGAT /> 
       <Features /> 
       <CTA />

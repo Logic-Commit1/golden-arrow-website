@@ -3,7 +3,14 @@ import './header.css'
 
 const Header = () => {
     return(
-        <>2</>
+        <div class="golden-chain_header" id="home">
+            <div class="hero-img">
+                <div class="overlay"></div>
+                <div class="golden-chain_header-content">
+                    <h1 class="golden-chain_header-text">Create Innovative Products to Boost Your Income.</h1>
+                </div>
+            </div>
+        </div>
     )
 };
 

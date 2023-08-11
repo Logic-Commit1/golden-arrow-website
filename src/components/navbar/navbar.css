@@ -3,13 +3,13 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: 1.5rem 6rem;
 }
 
 .golden-chain_navbar-links {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -18,8 +18,8 @@
 }
 
 .golden-chain_navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 120px;
+    height: 60  px;
 }
 
 .golden-chain_navbar-links_container {
@@ -50,8 +50,8 @@
 .golden-chain_navbar-contact button,
 .golden-chain_navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #fff;
-    background: #FF4820;
+    color: #000a52;
+    background: #fdd424;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -74,11 +74,11 @@
 }
 
 .golden-chain_navbar-menu_container {
+    z-index: 100;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    flex-direction: column;
-    
+    flex-direction: column;    
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
@@ -95,7 +95,7 @@
     margin: 1rem 0;
 }
 
-.golden-chain_navbar-menu_container-links-sign {
+.golden-chain_navbar-menu_container-links-contact {
     display: none;
 }
 
@@ -107,6 +107,7 @@
     .golden-chain_navbar-menu {
         display: flex;
     }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -127,8 +128,9 @@
     .golden-chain_navbar-menu_container {
         top: 20px;
     }
-
-    .golden-chain_navbar-menu_container-links-sign {
+    
+    .golden-chain_navbar-menu_container-links-contact {
         display: block;
     }
+    
 }
