@@ -1,0 +1,39 @@
+.golden-chain-clients {
+    text-align: center;
+    background-color: var(--color-bg-secondary);
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    max-width: 330px;
+    margin: auto;
+    padding: 33px 0 46px;
+  }
+  
+  .grid-item {
+    max-width: 150px;
+    min-width: 120px;
+    margin: 0 20px;
+    padding: 10px;
+  }
+
+  .grid-item img {
+    max-width: 120px;
+  }
+
+  .clients-text {
+    padding-top: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-subtext);
+  }
+  
+  @media screen and (min-width: 361px) {
+    .clients-text {
+      font-size: 1.5rem;
+    }
+  }

@@ -34,6 +34,31 @@ a {
 .section_margin {
   margin: 4rem 6rem;
 }
+
+.cta-button {
+  padding: 0.5rem 1rem;
+  color: var(--color-primary);
+  background: var(--color-cta-button);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 360px) {
+  .cta-button {
+    padding: 0.4rem 0.9rem;
+    font-size: 14px;
+  }
+} 
+
+/* .container {
+  padding: 0 40px;
+} */
 /* 
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

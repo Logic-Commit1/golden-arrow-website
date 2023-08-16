@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div> 
             </div>
             <div className="golden-chain_navbar-contact">
-                <button type="button">Contact Us</button>
+                <button className="cta-button" type="button">Contact Us</button>
             </div>
             <div className="golden-chain_navbar-menu">
                 {toggleMenu 
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <div className="golden-chain_navbar-menu_container-links">
                             <Menu />
                             <div className="golden-chain_navbar-menu_container-links-contact">
-                                <button type="button">Contact Us</button>
+                                <button className="cta-button" type="button">Contact Us</button>
                             </div>
                         </div>
                     </div>
