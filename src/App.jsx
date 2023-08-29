@@ -1,22 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import { Clients, CTA, Navbar } from './components'
-import { Products, Services, FAQs, Features, Footer, Hero, WhatGAT } from './containers'
+import { Route, Routes } from 'react-router-dom';
+import { Navbar } from './components'
+import { Home, About, Offers }  from './pages';
+
 import './App.css'
 
 
 const App = () => {
   return (
-    <div className="classname">
+    <>
       <div className="gradient_bg">
         <Navbar />
       </div>
-      <Hero />
-      <WhatGAT /> 
-      <Products />
-      <Clients /> 
-      <FAQs />
-      <Footer />
-    </div> 
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about-us' element={<About />} />
+        <Route path='/offers' element={<Offers />} />
+      </Routes>
+    </>
   );
 };
 

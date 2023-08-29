@@ -12,7 +12,7 @@ const Clients = () => {
                 <div className="grid-item"><img src={cnc} /></div>
                 <div className="grid-item"><img src={frabelle} /></div>
                 <div className="grid-item"><img src={psacc} /></div>
-                <div className="grid-item"><img src={tasli} /></div>
+                <div className="grid-item tasli"><img src={tasli} /></div>
             </div>
         </div>
     )

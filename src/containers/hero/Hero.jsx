@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="hero-img">
                 {/* <div className="overlay"></div> */}
                 <div className="golden-chain_hero-content">
-                    <h1 className="golden-chain_hero-text">Create Innovative Products to Boost Your <span className="span">Income</span></h1>
+                    <h1 className="golden-chain_hero-text">Setting Sail to <span className="span">Excellence</span> in Marine and Industrial Solutions </h1>
                     <button className="hero-button cta-button">Learn More</button>
                 </div>
             </div>

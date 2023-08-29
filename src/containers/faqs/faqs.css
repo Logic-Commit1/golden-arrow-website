@@ -14,15 +14,22 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     margin: 0 auto 25px;
     max-width: 310px;
-    height: 70px;
+    padding: 30px 0;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(34, 65, 123, 0.7);
     text-align: left;
+}
+.card:hover {
+    cursor: pointer;
+}
+
+.card .title, .card .fa-plus {
+    pointer-events: none;
 }
 
 .card .title {
@@ -30,10 +37,15 @@
     font-size: 1rem;
     margin-left: 1.5rem;
     color: var(--color-subtext);
+    width: fit-content;
 }
 
 .card .fa-plus {
-    margin-right: 25px;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    margin-right: 22px;
+    font-size: 13px;
     font-weight: bold;
     color: var(--color-subtext);
 }
@@ -41,11 +53,19 @@
 .card .content {
     display: none;
     margin: 16px 12px 10px;
-    font-size: 14pt;
+    font-size: 1rem;
     font-weight: 400;
-    color: #242424;
+    color: #22417b;
     line-height: 172%;
     cursor: default;
+    border-top: 1px solid #b0b0b0;
+}
+
+.active .content {
+    display: block;
+    padding: 20px 10px 0;
+    margin-top: 30px;
+    font-size: 0.8rem;
 }
 
 
@@ -60,5 +80,32 @@
 
     .card {
         max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .faqs-section {
+        padding: 60px 24px;
+    }
+
+    .card {
+        max-width: 730px;
+        padding: 40px 0;
+    }
+
+    .active {
+        padding: 40px 0 20px;
+    }
+    .card .title {
+        font-size: 1.5rem;
+    }
+
+    .card .fa-plus {
+        top: 42px;
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .active .content {
+        font-size: 1rem;
     }
 }

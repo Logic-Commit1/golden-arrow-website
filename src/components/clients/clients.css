@@ -8,7 +8,7 @@
     align-items: center;
     justify-items: end;
     grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto;
+    grid-template-columns: 185px 130px;
     max-width: 330px;
     margin: auto;
     padding: 33px 0 46px;
@@ -19,6 +19,8 @@
     min-width: 120px;
     margin: 0 20px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .grid-item img {
@@ -35,5 +37,29 @@
   @media screen and (min-width: 361px) {
     .clients-text {
       font-size: 1.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 695px) {
+    .grid-item img {
+      max-width: 150px;
+    }
+
+    .grid-container {
+      justify-items: center;
+      grid-template-columns: auto auto;      
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    .grid-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      grid-template-rows: auto auto auto;
+      grid-template-columns: auto auto;
+      max-width: 330px;
+      margin: auto;
+      padding: 20px 0 46px;
     }
   }

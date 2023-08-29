@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .footer-logo {
     padding-top: 1.5rem;
     width: 230px;
@@ -15,8 +20,10 @@
 
 .footer-contacts {
     color: var(--color-text);
-    padding: 30px 50px 20px;
+    padding: 30px 35px 20px;
+    font-size: 0.9rem;
     font-weight: 400;
+    max-width: 650px;
 }
 
 .contact {
@@ -33,15 +40,134 @@
     margin-right: 10px;
 }
 
+
+.footer-cta-section {
+    padding: 0 38px 20px;
+    color: var(--color-text);
+}
+
+.cta-header {
+    text-align: left;
+    font-size: 1.75rem;
+}
+
+.cta-sub-header {
+    text-align: left;
+    font-size: 0.65rem;
+    margin: 10px 0 26px;
+    opacity: 0.8;
+}
+
+.cta-input {
+    background: transparent;
+    height: 40px;
+    border: 0;
+    padding-left: 10px;
+    color: white;
+}
+
+.cta-input:focus {
+    border: none;
+}
+
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+}
+
+input:focus {
+    border: 1px solid #fdd424;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fdd424;
+    width: fit-content;
+    border-radius: 5px 10px 10px 5px;
+
+}
+
+#footer-cta-button {
+    height: 40px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.75rem;
+    width: max-content;
+}
+
 .footer-rights {
     font-size: 10px;
     color: var(--color-text);
     padding-bottom: 30px;
+    margin-top: 20px;
 }
 
-@media screen and (min-width: 861px) {
+
+/* @media screen and (min-width: 400px) {
     .footer-contacts {
         font-weight: bold;
     }
 }
+ */
+@media screen and (min-width: 768px) {
+    .footer-cta-section {
+        max-width: 440px;
+        margin-left: 20px;
+        margin-bottom: -20px;
+    }
 
+    .cta-input {
+        width: 220px;
+    }
+    
+}
+
+
+@media screen and (min-width: 861px) {
+    .footer-contacts {
+        padding: 30px 50px 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .footer-content {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+        justify-content: space-between;
+    }   
+
+    .footer-logo {
+        margin: 0;
+    }
+
+    .footer-logo img {
+        height: 120px;
+        margin-left: 50px;
+    }
+
+    .footer-section {
+        padding: 20px 100px 0;
+    }
+    
+
+    .cta-header {
+        font-size: 2.25rem;
+    }
+
+    .cta-sub-header {
+        font-size: 1rem;
+    }
+
+    #footer-cta-button {
+        height: 40px;
+        border-radius: 0 8px 8px 0;
+        font-size: 1rem;
+        width: max-content;
+        font-weight: 700;
+    }
+
+     
+}
