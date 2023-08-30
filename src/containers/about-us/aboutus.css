@@ -1,0 +1,178 @@
+.about-us-page {
+    padding-bottom: 50px;
+}
+
+.about-us-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.about-us-subtitle {
+    font-size: 1rem;
+}
+
+.about-us-title, .about-us-subtitle {
+    color: var(--color-subtext);
+}
+
+.about-us-hero-img-section {
+    text-align: center;
+}
+
+.pics {
+    max-width: 250px;
+}
+
+.core-values {
+    margin-top: 20px;
+}
+
+.core-values-subtitle {
+    margin-bottom: 20px;
+}
+
+
+.core-value {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.core-value .content {
+    font-size: 0.8rem;
+}
+
+.core-value-title {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.fa-solid {
+    font-size: 1.25rem;
+    display: block;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .core-values {
+        display: grid;
+        grid-template-columns: repeat(2,240px);
+        place-content: center;
+        column-gap: 30px;
+    }
+
+    
+    .core-value .content {
+        text-align: justify;
+    }
+
+    .fa-solid {
+        margin-bottom: 5px;
+    }
+
+    .pics {
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .core-values {
+        display: grid;
+        grid-template-columns: repeat(2,240px);
+        place-content: center;
+        column-gap: 30px;
+    }
+
+    
+    .core-value .content {
+        text-align: justify;
+    }
+
+    .fa-solid {
+        margin-bottom: 5px;
+    }
+
+    .pics {
+        max-width: 450px;
+    }
+
+    #ship-pic {
+        max-height: 450px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .about-us-title {
+        font-size: 2.5rem;
+    }
+
+    .about-us-subtitle {
+        font-size: 1.5rem;
+    }
+
+    #ship-pic {
+        max-height: 600px;
+    }
+
+    .pics {
+        max-height: 500px;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 110px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .section-text {
+        max-width: 580px;
+    }
+
+    .intro-section, .mission-section {
+        flex-direction: row-reverse;
+    }
+
+    .intro-section .section-text {
+        margin: 0 90px 35px 0;
+    }
+
+    .story-section .section-text {
+        margin: 0 0 60px 80px;;
+    }
+
+    .mission-section .section-text {
+        margin: 0px 50px 20px 0;
+    }
+
+    .core-values-section {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .core-values-subtitle {
+        padding: 0 120px;
+    }
+
+    .core-value .content {
+        font-size: 1.5rem;
+    }
+    
+    .core-values {
+        grid-template-columns: repeat(2,380px);
+        column-gap: 50px;
+    }
+
+    .about-us-section .fa-solid {
+        font-size: 2.5rem;
+    }
+
+    .core-value-title {
+        font-size: 1.75rem;
+    }
+}

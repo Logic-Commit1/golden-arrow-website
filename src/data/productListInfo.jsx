@@ -7,8 +7,9 @@ const productListInfos = [
             'Gate Valve',
             'Globe Valve',
             'Check Valve',
-            'Y-Strainer',
-            'Foot Valve'
+            'Ball Valve',
+            'Butterfly Valve',
+            'Other Valves'
         ]
     },
     {
@@ -40,7 +41,7 @@ const productListInfos = [
             'Bilge Pump',
             'Submersible Pump',
             'Self-priming Pump',
-            'Compact Type',
+            'Gear Pump',
         ]
     },
     {

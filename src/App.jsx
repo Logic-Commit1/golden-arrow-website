@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Navbar } from './components'
-import { Home, About, Offers }  from './pages';
+import { HomePage, AboutPage, OffersPage }  from './pages';
 
 import './App.css'
 
@@ -13,9 +13,9 @@ const App = () => {
         <Navbar />
       </div>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about-us' element={<About />} />
-        <Route path='/offers' element={<Offers />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/about-us' element={<AboutPage />} />
+        <Route path='/offers' element={<OffersPage />} />
       </Routes>
     </>
   );

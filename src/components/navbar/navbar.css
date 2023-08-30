@@ -69,7 +69,7 @@
     align-items: flex-end;
     flex-direction: column;    
     text-align: end;
-    background: var(--color-cta-button);
+    background: var(--color-subtext);
     padding: 1rem 2rem;
     position: absolute;
     right: 0;
@@ -82,7 +82,7 @@
 
 .golden-chain_navbar-menu_container p {
     margin: 1rem 0;
-    color: var(--color-primary);
+    color: white;
 }
 
 .golden-chain_navbar-menu_container-links-contact {
