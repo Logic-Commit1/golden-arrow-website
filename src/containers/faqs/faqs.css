@@ -4,7 +4,7 @@
 }
 
 .faqs-header {
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--color-subtext);
     margin-bottom: 50px;
@@ -71,7 +71,7 @@
 
 @media screen and (min-width: 361px) {
     .faqs-header {
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
     .card .title {
@@ -84,6 +84,9 @@
 }
 
 @media screen and (min-width: 1100px) {
+    .faqs-header {
+        font-size: 2rem;
+    }
     .faqs-section {
         padding: 60px 24px;
     }
