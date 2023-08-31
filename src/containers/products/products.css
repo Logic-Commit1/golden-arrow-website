@@ -60,6 +60,7 @@
     max-width: 1000px;
     margin: auto;
     padding-top: 20px;
+    column-gap: 5px;
   }
 
   .products-subtitle {

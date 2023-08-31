@@ -62,4 +62,8 @@
       margin: auto;
       padding: 20px 0 46px;
     }
+
+    .clients-text {
+      font-size: 1.75rem;
+    }
   }

@@ -1,4 +1,4 @@
-import { pic,valve,generator,service,pump,winch } from './imports';
+import { blower,valve,generator,service,pump,winch } from './imports';
 
 const productInfos = [
     {
@@ -9,7 +9,7 @@ const productInfos = [
     },
     {
         id: 2,
-        img: pic,
+        img: blower ,
         productName: 'Blowers',
         productDetails: 'Stay ahead of the competition with our efficient blowers, designed to optimize airflow and boost productivity.'
     },

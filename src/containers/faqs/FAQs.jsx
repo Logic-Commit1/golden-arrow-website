@@ -8,7 +8,8 @@ const handleClick = (e) => {
 const FAQs = () => {
     return(
         <div className="faqs-section">
-            <p className="faqs-header">Frequently Asked Questions (FAQS)<div className="border"></div></p>
+            <h2 className="faqs-header">Frequently Asked Questions (FAQS)<div className="border"></div></h2>
+            
             <div className="pops">
                 <div className="card pop" onClick={handleClick}>
                     <p className="title" data-pop-target='icon'>What products do you offer?<span><i className="fa-solid fa-plus"></i></span></p>                    

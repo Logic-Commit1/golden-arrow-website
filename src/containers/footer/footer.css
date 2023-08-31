@@ -86,7 +86,18 @@ input:focus {
     border: 1px solid #fdd424;
     width: fit-content;
     border-radius: 5px 10px 10px 5px;
+    position: relative;
+}
 
+#join-message {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.fa-check {
+    display: inline;
+    margin-left: 5px;
 }
 
 #footer-cta-button {

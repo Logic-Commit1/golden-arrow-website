@@ -10,7 +10,7 @@ const AboutUs = () => {
       {/* Short Introduction */}
       <div className="section intro-section">
         <div className="about-us-hero-img-section">
-          <img src={pic3} alt="GCMES picture" class="pics" id="ship-pic" />
+          <img src={pic3} alt="GCMES picture" className="pics" id="ship-pic" />
         </div>
         <div className="section-text">
           <p className="about-us-title">
@@ -32,7 +32,7 @@ const AboutUs = () => {
 
       <div className="section story-section">
         <div className="about-us-hero-img-section">
-          <img src={pic1} alt="GCMES picture" class="pics" />
+          <img src={pic1} alt="GCMES picture" className="pics" />
         </div>
         <div className="section-text">
           <p className="about-us-title about-us-page-title">
@@ -53,7 +53,7 @@ const AboutUs = () => {
 
       <div className="section mission-section">
         <div className="about-us-hero-img-section">
-          <img src={pic2} alt="GCMES picture" class="pics" />
+          <img src={pic2} alt="GCMES picture" className="pics" />
         </div>
         <div className="section-text">
           <p className="about-us-title about-us-page-title">

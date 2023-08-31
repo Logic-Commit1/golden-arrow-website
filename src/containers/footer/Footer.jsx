@@ -1,11 +1,65 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import "./footer.css";
 import logo from "../../assets/logo.png";
 
 const Footer = () => {
+  const [email, setEmail] = useState(""); 
+  const [message, setMessage] = useState(""); 
+
+  useEffect(() => {
+    const joinButton = document.getElementById("footer-cta-button");
+
+    joinButton.addEventListener("click", () => {
+      if (isValidEmail(email)) {
+        setMessage(
+        <span>
+          Joined successfully <i className="fa-solid fa-check" style={{ display: "inline" }}></i>
+        </span>
+        );
+
+        setMessageStyle({
+          color: "#fdd424",
+          fontWeight: "bold",
+          display: "block",
+        });
+
+        setEmail("");
+
+        setTimeout(() => {
+          setMessage("");
+          setMessageStyle({ display: "none" });
+        }, 3000); 
+      } else {
+        setMessage("Invalid email format");
+
+        setMessageStyle({
+          color: "red",
+          fontWeight: "bold",
+          display: "block",
+        });
+      }
+    });
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      joinButton.removeEventListener("click", () => {
+        // Remove the event listener
+      });
+    };
+  }, [email]); // Re-run the effect when the email input changes
+
+  // Function to check if the email is in a valid format
+  const isValidEmail = (email) => {
+    const emailRegex = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+    return emailRegex.test(email);
+  };
+
+  const [messageStyle, setMessageStyle] = useState({ display: "none" });
+
   return (
-    <div className="footer-section">
-      <div className="container">      
+    <div className="footer-section" >
+      <div className="container">
         <div className="footer-logo">
           <img src={logo} alt="golden-chain-logo" height="130px" />
         </div>
@@ -37,18 +91,31 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-cta-section">
-            <p className="cta-header">Sail with <span className="span">Us</span>!</p>
+            <p className="cta-header">
+              Sail with <span className="span">Us</span>!
+            </p>
             <p className="cta-sub-header">
-              Get exclusive offers, industry insights, and updates. Join the journey
-              to maritime excellence!
+              Get exclusive offers, industry insights, and updates. Join the
+              journey to maritime excellence!
             </p>
             <div className="input-container">
-              <input type="email" className="cta-input" placeholder="Your email here" />
-              <button className="cta-button" id="footer-cta-button">Join Us</button>
+              <input
+                type="email"
+                className="cta-input"
+                placeholder="Your email here"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <button className="cta-button" id="footer-cta-button">
+                Join Us
+              </button>
+              <div id="join-message" style={messageStyle}>
+                {message}
+              </div>
             </div>
           </div>
         </div>
-      <p className="footer-rights">© 2023 GCMES. All rights reserved.</p>
+        <p className="footer-rights">© 2023 GCMES. All rights reserved.</p>
       </div>
     </div>
   );
