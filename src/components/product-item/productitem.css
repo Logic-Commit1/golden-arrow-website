@@ -6,6 +6,10 @@
   margin: 0 auto 20px;
 }
 
+.product-item img {
+  width: 290px;
+}
+
 .product-text{
   box-sizing: border-box;
   position: absolute;
