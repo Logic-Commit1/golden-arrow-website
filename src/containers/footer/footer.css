@@ -107,6 +107,10 @@ input:focus {
     width: max-content;
 }
 
+#footer-cta-button:hover {
+    background: var(--color-footer);
+}
+
 .footer-rights {
     font-size: 10px;
     color: var(--color-text);
