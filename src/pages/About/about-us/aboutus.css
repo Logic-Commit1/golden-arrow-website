@@ -107,11 +107,11 @@
 
 @media screen and (min-width: 1100px) {
     .about-us-title {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     .about-us-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     #ship-pic {
@@ -153,6 +153,7 @@
 
     .core-values-section {
         max-width: 1200px;
+        padding-bottom: 40px;
         margin: auto;
     }
     
@@ -162,7 +163,7 @@
     }
 
     .core-value .content {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     
     .core-values {
@@ -175,6 +176,6 @@
     }
 
     .core-value-title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 }
