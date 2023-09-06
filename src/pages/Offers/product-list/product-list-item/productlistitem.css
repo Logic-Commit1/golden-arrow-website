@@ -16,10 +16,6 @@
   margin-bottom: 10px;
 }
 
-.card-tall {
-  grid-row: span 2 / auto;
-}
-
 li {
   list-style: none;
   color: var(--color-subtext);
@@ -48,5 +44,14 @@ li {
   .product-list {
     width: 280px;
     line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .product-category {
+    font-size: 1.4rem;
+  }
+  li {
+    font-size: 1rem;
   }
 }

@@ -1,8 +1,6 @@
 import React from "react";
 import "./aboutus.css";
-import pic1 from "../../assets/about-us/1.jpg";
-import pic2 from "../../assets/about-us/2.jpg";
-import pic3 from "../../assets/about-us/3.jpg";
+import ABOUTUS from "../../../assets/about-us/import";
 
 const AboutUs = () => {
   return (
@@ -10,7 +8,7 @@ const AboutUs = () => {
       {/* Short Introduction */}
       <div className="section intro-section">
         <div className="about-us-hero-img-section">
-          <img src={pic3} alt="GCMES picture" className="pics" id="ship-pic" />
+          <img src={ABOUTUS.img1} alt="GCMES picture" className="pics" id="ship-pic" />
         </div>
         <div className="section-text">
           <p className="about-us-title">
@@ -32,7 +30,7 @@ const AboutUs = () => {
 
       <div className="section story-section">
         <div className="about-us-hero-img-section">
-          <img src={pic1} alt="GCMES picture" className="pics" />
+          <img src={ABOUTUS.img2} alt="GCMES picture" className="pics" />
         </div>
         <div className="section-text">
           <p className="about-us-title about-us-page-title">
@@ -53,7 +51,7 @@ const AboutUs = () => {
 
       <div className="section mission-section">
         <div className="about-us-hero-img-section">
-          <img src={pic2} alt="GCMES picture" className="pics" />
+          <img src={ABOUTUS.img3} alt="GCMES picture" className="pics" />
         </div>
         <div className="section-text">
           <p className="about-us-title about-us-page-title">

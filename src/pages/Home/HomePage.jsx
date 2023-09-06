@@ -1,6 +1,10 @@
 import React from 'react';
-import { Clients } from '../components';
-import { Products, FAQs, Footer, Hero, WhatGAT } from '../containers'
+import Clients from './clients/Clients';
+import Hero from './hero/Hero';
+import WhatGAT from './whatGAT/WhatGAT';
+import FAQs from './faqs/FAQs';
+import Products from './products/Products';
+import { Footer } from '../../components';
 
 
 const HomePage = () => {

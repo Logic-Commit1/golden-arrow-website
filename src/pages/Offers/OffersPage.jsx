@@ -1,5 +1,6 @@
 import React from 'react';
-import { ProductsLists, Footer } from '../containers';
+import ProductsLists from './product-list/ProductList';
+import { Footer } from '../../components';
 
 
 const OffersPage = () => {

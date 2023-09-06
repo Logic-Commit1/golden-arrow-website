@@ -1,7 +1,7 @@
 import React from "react";
-import "./productlist.css";
+import "./productlistitem.css";
 
-const ProductList = (props) => {
+const ProductListItem = (props) => {
   return (
     <div className="product-list-container">
       <p className="product-category">{props.category}</p>
@@ -16,4 +16,4 @@ const ProductList = (props) => {
   );
 };
 
-export default ProductList;
+export default ProductListItem;

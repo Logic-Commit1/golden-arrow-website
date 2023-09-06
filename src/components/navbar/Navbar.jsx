@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import Button from "../button/Button";
 import logo from "../../assets/logo.png";
 import "./navbar.css";
 
@@ -50,22 +51,21 @@ const Navbar = () => {
         </div>
       </div>
       <div className="golden-chain_navbar-contact">
-        <button className="cta-button" type="button">
-        <a href="mailto:sales@goldenchain.com.ph">Contact Us</a>
-
-        </button>
+        <a href="mailto:sales@goldenchain.com.ph">
+          <Button label="Contact Us" />
+        </a>
       </div>
       <div className="golden-chain_navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
-            size={27}
+            size={25}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
             color="#fff"
-            size={27}
+            size={25}
             onClick={() => setToggleMenu(true)}
           />
         )}
@@ -74,11 +74,9 @@ const Navbar = () => {
             <div className="golden-chain_navbar-menu_container-links">
               <Menu onCloseMenu={closeMenu} />
               <div className="golden-chain_navbar-menu_container-links-contact">
-                
-                  <button className="cta-button" type="button">
-                  <a href="mailto:sales@goldenchain.com.ph">Contact Us</a>
-                  </button>
-                
+                <a href="mailto:sales@goldenchain.com.ph">
+                  <Button label="Contact Us" />
+                </a>
               </div>
             </div>
           </div>

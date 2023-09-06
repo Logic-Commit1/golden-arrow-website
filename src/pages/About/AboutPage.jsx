@@ -1,11 +1,11 @@
 import React from 'react';
-import {AboutUs, Footer, Hero} from '../containers';
+import AboutUs from './about-us/AboutUs';
+import { Footer } from '../../components';
 
 
 const AboutUsPage = () => {
   return (
-    <>
-      
+    <>  
       <AboutUs />
       <Footer />
     </>

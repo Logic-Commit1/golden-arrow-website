@@ -1,9 +1,9 @@
 import React from "react";
-import "./productslists.css";
-import { ProductList } from "../../components";
-import productListInfos from "../../data/productListInfo";
+import "./productlist.css";
+import ProductListItem from "./product-list-item/ProductListItem";
+import productListInfos from "../../../data/ProductList";
 
-const ProductsLists = () => {
+const ProductList = () => {
   return (
     <div className="products-section products-lists-section">
       <div className="products-section-text">
@@ -20,7 +20,7 @@ const ProductsLists = () => {
       </div>
       <div className="product-lists">
         {productListInfos.map((productListInfo) => (
-          <ProductList
+          <ProductListItem
             key={productListInfo.id}
             category={productListInfo.category}
             categoryListItems={productListInfo.categoryListItems}
@@ -31,4 +31,4 @@ const ProductsLists = () => {
   );
 };
 
-export default ProductsLists;
+export default ProductList;

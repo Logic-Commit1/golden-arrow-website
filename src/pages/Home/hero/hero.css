@@ -8,7 +8,7 @@
 }
 
 .hero-img {
-    background-image: url('../../assets/hero-img2.jpg');    height: inherit;
+    background-image: url('../../../assets/hero-img2.jpg');    height: inherit;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,9 +40,6 @@
     font-weight: 100;
 }
 
-.cta-button {
-    font-size: 14px;
-}
 
 .hero-button {
     margin-top: 25px;
@@ -54,13 +51,13 @@
 
 @media screen and (min-width: 695px) {
     .hero-img {
-        background-image: url('../../assets/hero-img-tablet.png');
+        background-image: url('../../../assets/hero-img-tablet.png');
     }
 }
 
 @media screen and (min-width: 1200px) {
     .hero-img {
-        background-image: url('../../assets/hero-img-desktop.png');
+        background-image: url('../../../assets/hero-img-desktop.png');
     }
 }
 

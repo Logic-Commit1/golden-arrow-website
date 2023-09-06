@@ -1,3 +1,3 @@
-export { default as AboutPage } from "./AboutPage";
-export { default as HomePage } from "./HomePage";
-export { default as OffersPage } from "./OffersPage";
+export { default as AboutPage } from "./About/AboutPage";
+export { default as HomePage } from "./Home/HomePage";
+export { default as OffersPage } from "./Offers/OffersPage";
