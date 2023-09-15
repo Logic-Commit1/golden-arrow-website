@@ -7,9 +7,9 @@ const Products = () => {
   return (
     <div className="products-section homepage-products">
       <div className="products-section-text">
-        <h2 className="products-title" id="homepage-products-title">
+        <h1 className="products-title" id="homepage-products-title">
           Our Products<div className="border"></div>
-        </h2>
+        </h1>
 
         <p className="products-subtitle" id="homepage-products-subtitle">
           Our extensive range of high-quality marine and industrial products is

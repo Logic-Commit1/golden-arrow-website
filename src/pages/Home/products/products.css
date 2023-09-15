@@ -64,6 +64,11 @@
     column-gap: 5px;
   }
 
+  #homepage-products-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
   .products-subtitle {
     max-width: 770px;
     margin: 0 auto 35px;
