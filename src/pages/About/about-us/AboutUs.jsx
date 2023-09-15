@@ -37,7 +37,7 @@ const AboutUs = () => {
             Our Story{/* <div className="border"></div> */}
           </p>
           <p className="about-us-subtitle">
-            Our journey began in 2017, with a vision to redefine the standards
+            Our journey began in 2020, with a vision to redefine the standards
             of marine and industrial solutions. Over the years, we have
             navigated through tides and storms, emerging stronger, wiser, and
             more dedicated to our mission.
