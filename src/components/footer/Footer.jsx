@@ -4,8 +4,8 @@ import "./footer.css";
 import logo from "../../assets/logo.png";
 
 const Footer = () => {
-  const [email, setEmail] = useState(""); 
-  const [message, setMessage] = useState(""); 
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   useEffect(() => {
     const joinButton = document.getElementById("footer-cta-button");
@@ -13,9 +13,10 @@ const Footer = () => {
     joinButton.addEventListener("click", () => {
       if (isValidEmail(email)) {
         setMessage(
-        <span>
-          Joined successfully <i className="fa-solid fa-check" style={{ display: "inline" }}></i>
-        </span>
+          <span>
+            Joined successfully{" "}
+            <i className="fa-solid fa-check" style={{ display: "inline" }}></i>
+          </span>
         );
 
         setMessageStyle({
@@ -29,7 +30,7 @@ const Footer = () => {
         setTimeout(() => {
           setMessage("");
           setMessageStyle({ display: "none" });
-        }, 3000); 
+        }, 3000);
       } else {
         setMessage("Invalid email format");
 
@@ -58,7 +59,7 @@ const Footer = () => {
   const [messageStyle, setMessageStyle] = useState({ display: "none" });
 
   return (
-    <div className="footer-section" >
+    <div className="footer-section">
       <div className="container">
         <div className="footer-logo">
           <img src={logo} alt="golden-chain-logo" height="130px" />
@@ -89,11 +90,11 @@ const Footer = () => {
                 <p>0917 719 2213 (General Manager)</p>
               </div>
             </div>
+            
           </div>
+
           <div className="footer-cta-section">
-            <p className="cta-header">
-              Sail with <span className="span">Us</span>!
-            </p>
+            <p className="cta-header">Get a <span className="span"> Quote</span></p>
             <p className="cta-sub-header">
               Get exclusive offers, industry insights, and updates. Join the
               journey to maritime excellence!
@@ -112,6 +113,18 @@ const Footer = () => {
               <div id="join-message" style={messageStyle}>
                 {message}
               </div>
+            </div>
+            <div className="footer-brochure-section">
+              <p className="brochure-text">
+                Check our&nbsp;
+                <a
+                  className="brochure-link"
+                  href="/GCMES-COMPANY-PROFILE.pdf"
+                  download
+                >
+                  brochure.
+                </a>
+              </p>
             </div>
           </div>
         </div>

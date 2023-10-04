@@ -1,16 +1,16 @@
-import twogo from "../../../assets/clients/2go-logo.png";
-import chelseahip from "../../../assets/clients/chelseashippingPh.png";
-import cnc from "../../../assets/clients/cnc-logo.png";
-import frabelle from "../../../assets/clients/frabelle.png";
-import psacc from "../../../assets/clients/psacc.png";
-import tasli from "../../../assets/clients/tasli.png";
-import shogun from "../../../assets/clients/shogun.png";
-import oceanic from "../../../assets/clients/oceanic.png";
-import starlite from "../../../assets/clients/starlite.png";
-import herma from "../../../assets/clients/herma.png";
-import landstar from "../../../assets/clients/landstar.png";
-import kolora from "../../../assets/clients/kolora.png";
-import keppel from "../../../assets/clients/keppel.png";
+import twogo from "src/assets/clients/2go-logo.png";
+import chelseahip from "src/assets/clients/chelseashippingPh.png";
+import cnc from "src/assets/clients/cnc-logo.png";
+import frabelle from "src/assets/clients/frabelle.png";
+import psacc from "src/assets/clients/psacc.png";
+import tasli from "src/assets/clients/tasli.png";
+import shogun from "src/assets/clients/shogun.png";
+import oceanic from "src/assets/clients/oceanic.png";
+import starlite from "src/assets/clients/starlite.png";
+import herma from "src/assets/clients/herma.png";
+import landstar from "src/assets/clients/landstar.png";
+import kolora from "src/assets/clients/kolora.png";
+import keppel from "src/assets/clients/keppel.png";
 
 export {
   twogo,

@@ -1,7 +1,7 @@
 import React from "react";
 import "./productlist.css";
 import ProductListItem from "./product-list-item/ProductListItem";
-import productListInfos from "../../../data/ProductList";
+import productListInfos from "src/data/ProductList";
 
 const ProductList = () => {
   return (
@@ -24,6 +24,7 @@ const ProductList = () => {
             key={productListInfo.id}
             category={productListInfo.category}
             categoryListItems={productListInfo.categoryListItems}
+            categorySamplePhotos = {productListInfo.categorySamplePhotos}
           />
         ))}
       </div>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Navbar } from './components'
 import { HomePage, AboutPage, OffersPage }  from './pages';
@@ -9,9 +9,7 @@ import './App.css'
 const App = () => {
   return (
     <>
-      <div className="gradient_bg">
-        <Navbar />
-      </div>
+      <Navbar />      
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about-us' element={<AboutPage />} />

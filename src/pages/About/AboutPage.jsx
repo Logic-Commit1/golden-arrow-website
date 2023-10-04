@@ -1,12 +1,19 @@
 import React from 'react';
-import AboutUs from './about-us/AboutUs';
 import { Footer } from '../../components';
+import Intro from './intro/Intro';
+import Story from './story/Story';
+import Mission from './mission/Mission';
+import CoreValues from './core-values/CoreValues';
 
 
 const AboutUsPage = () => {
   return (
     <>  
-      <AboutUs />
+      <Intro />
+      <Story />
+      <Mission />
+      <CoreValues />
+
       <Footer />
     </>
   );

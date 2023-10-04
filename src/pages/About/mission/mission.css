@@ -1,0 +1,34 @@
+#mission-section {
+    background-color: var(--color-bg-secondary);
+}
+
+.mission-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.about-us-hero-img-section {
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 1.25rem;
+    display: block;
+}
+
+@media screen and (min-width: 1200px) {
+    .mission-content {
+        flex-direction: row-reverse;
+        gap: 35px;
+        justify-content: center;
+    }
+
+    #mission-title {
+        margin-top: 0;
+    }
+
+    #mission-text {
+        margin: 0 40px;
+    }
+}

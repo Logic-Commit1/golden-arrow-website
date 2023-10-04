@@ -9,14 +9,14 @@ import { Footer } from '../../components';
 
 const HomePage = () => {
     return (
-        <div>
+        <>
           <Hero />
           <WhatGAT /> 
           <Products />
           <Clients /> 
           <FAQs />
           <Footer />
-        </div> 
+        </> 
       );
 };
 

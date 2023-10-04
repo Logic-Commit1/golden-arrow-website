@@ -1,0 +1,28 @@
+#story-section {
+    background-color: white;
+}
+
+.story-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 980px;
+}
+
+
+
+@media screen and (min-width: 1200px) {    
+    #story-title {
+        margin-top: 0;
+    }
+
+    .story-content {
+        flex-direction: row;
+        align-items: center;
+        gap: 35px;
+    }
+
+    #story-img {
+        margin: 0 50px;
+    }
+}

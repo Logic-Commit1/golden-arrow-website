@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="golden-chain_navbar-contact">
-        <a href="mailto:finance@goldenchain.com.ph">
+        <a href="mailto:sales@goldenchain.com.ph">
           <Button label="Contact Us" />
         </a>
       </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
             <div className="golden-chain_navbar-menu_container-links">
               <Menu onCloseMenu={closeMenu} />
               <div className="golden-chain_navbar-menu_container-links-contact">
-                <a href="mailto:finance@goldenchain.com.ph">
+                <a href="mailto:sales@goldenchain.com.ph">
                   <Button label="Contact Us" />
                 </a>
               </div>

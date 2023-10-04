@@ -1,0 +1,85 @@
+#core-values-section {
+    background-color: white;
+}
+
+.about-us-hero-img-section {
+    text-align: center;
+}
+
+.core-values {
+    margin-top: 20px;
+}
+
+#core-values-title {
+    margin-top: 0;
+}
+
+#core-values-subtitle {
+    margin-bottom: 20px;    
+    max-width: 820px;
+    margin: auto;
+}
+
+.core-value {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.core-value .content {
+    font-size: 0.8rem;
+    text-align: justify;
+    max-width: 222px;
+    margin: auto;
+}
+
+.core-value-title {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.fa-solid {
+    font-size: 1.25rem;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .core-values {
+        display: grid;
+        grid-template-columns: repeat(2,240px);
+        place-content: center;
+        column-gap: 30px;
+    }
+
+    .fa-solid {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {   
+    .core-values {
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        place-content: center;
+        column-gap: 15px;
+    }
+    
+    .intro-section, .mission-section {
+        flex-direction: row;
+    }
+
+    #core-values-section {
+        max-width: 1200px;
+        padding-bottom: 40px;
+        margin: auto;
+    }
+
+    #core-values-title {
+        text-align: center;
+    }
+
+    .core-value .content {
+        font-size: 1rem;
+        max-width: 280px;
+    }
+}

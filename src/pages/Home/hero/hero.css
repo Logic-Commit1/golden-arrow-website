@@ -8,7 +8,7 @@
 }
 
 .hero-img {
-    background-image: url('../../../assets/hero-img2.jpg');    height: inherit;
+    background-image: url('src/assets/hero-img2.jpg');    height: inherit;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,13 +51,13 @@
 
 @media screen and (min-width: 695px) {
     .hero-img {
-        background-image: url('../../../assets/hero-img-tablet.png');
+        background-image: url('src/assets/hero-img-tablet.png');
     }
 }
 
 @media screen and (min-width: 1200px) {
     .hero-img {
-        background-image: url('../../../assets/hero-img-desktop.png');
+        background-image: url('src/assets/hero-img-desktop.png');
     }
 }
 
