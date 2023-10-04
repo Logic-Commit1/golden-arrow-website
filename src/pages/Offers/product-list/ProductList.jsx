@@ -2,6 +2,10 @@ import React from "react";
 import "./productlist.css";
 import ProductListItem from "./product-list-item/ProductListItem";
 import productListInfos from "src/data/ProductList";
+import ImageSlider from '../../Offers/image-slider/ImageSlider'
+
+import { sampleImages } from "../../../data/imports";
+
 
 const ProductList = () => {
   return (
@@ -18,13 +22,18 @@ const ProductList = () => {
           keep your operations running smoothly.
         </p>
       </div>
+      {/* <div className="sample-products-photos">
+        <ImageSlider 
+          images={sampleImages}
+        />
+      </div> */}
+
       <div className="product-lists">
         {productListInfos.map((productListInfo) => (
           <ProductListItem
             key={productListInfo.id}
             category={productListInfo.category}
             categoryListItems={productListInfo.categoryListItems}
-            categorySamplePhotos = {productListInfo.categorySamplePhotos}
           />
         ))}
       </div>

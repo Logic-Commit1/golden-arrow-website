@@ -1,5 +1,3 @@
-import { valve1, valve2 } from './imports'
-
 const productListInfos = [
     {
         id: 1,
@@ -13,7 +11,6 @@ const productListInfos = [
             'Butterfly Valve',
             'Other Valves'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 2,
@@ -28,7 +25,6 @@ const productListInfos = [
             'Self-priming Pump',
             'Gear Pump',
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 3,
@@ -47,7 +43,6 @@ const productListInfos = [
             'Circuit Breaker',
             'Overload Relay'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 4,
@@ -59,7 +54,6 @@ const productListInfos = [
             'Hydraulic Winch Assembly',
             'Anchor Windlass Assembly'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 5,
@@ -75,7 +69,6 @@ const productListInfos = [
             'Chain Block',
             'Electric Chain Hoist'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 6,
@@ -88,7 +81,6 @@ const productListInfos = [
             'Steering Gear System',
             'Hydraulic Power Unit'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 7,
@@ -101,7 +93,6 @@ const productListInfos = [
             'Sewage Treatment Plant',
             'Oil Water Seperator'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 8,
@@ -113,7 +104,6 @@ const productListInfos = [
             'Mooring Rope',
             'Rubber and Pneumatic Fenders'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 9,
@@ -126,7 +116,6 @@ const productListInfos = [
             'Lifeboat',
             'Other Life Saving Accessories'
         ],
-        categorySamplePhotos: [valve1, valve2]
     },
     {
         id: 10,
@@ -150,7 +139,6 @@ const productListInfos = [
             'Re-piping of Hydraulic System',
             'Metalizing/Hard Chromming',
         ],
-        categorySamplePhotos: [valve1, valve2]
     }
 ]
 
