@@ -1,4 +1,4 @@
-# Golden Chain Marine Engineering Services Website
+# Golden Chain Marine Engineering Services
 
 A responsive web application built with React.js and CSS that serves as the official website of GCMES, a marine tech supplier and service provider.
 
@@ -17,4 +17,3 @@ A responsive web application built with React.js and CSS that serves as the offi
 - React.js
 - CSS
 
-```bash
